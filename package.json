@@ -7,6 +7,9 @@
     "start": "node index",
     "dev": "nodemon index"
   },
+  "engines": {
+    "node": "7.10.1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
