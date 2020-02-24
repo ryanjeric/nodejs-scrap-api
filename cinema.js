@@ -6,7 +6,7 @@ class Cinema {
 
     scrapeData(){
         async function scrape(url){
-            const browser = await puppeteer.launch();
+            const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
             const page = await browser.newPage();
             await page.goto(url);
             // Schedules are subject to change without prior notice.
