@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^2.0.2",
+    "nodemon": "^2.0.22",
     "puppeteer": "^2.1.1"
   }
 }
